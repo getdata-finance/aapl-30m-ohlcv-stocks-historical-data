@@ -1,10 +1,10 @@
 # AAPL 30m OHLCV US stocks Historical Data — Free Sample
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![Dataset rows](https://img.shields.io/badge/full_dataset-40_393_rows-blue)](https://getdata.finance/datasets/aapl) [![Updated](https://img.shields.io/badge/weekly_update-every_Saturday_8am_UTC-green)](https://getdata.finance) [![Full data on getdata.finance](https://img.shields.io/badge/download-getdata.finance-orange)](https://getdata.finance/datasets/aapl)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![Dataset rows](https://img.shields.io/badge/full_dataset-21_456_rows-blue)](https://getdata.finance/datasets/aapl) [![Updated](https://img.shields.io/badge/weekly_update-every_Saturday_8am_UTC-green)](https://getdata.finance) [![Full data on getdata.finance](https://img.shields.io/badge/download-getdata.finance-orange)](https://getdata.finance/datasets/aapl)
 
 ### -> [**Download the full AAPL dataset on getdata.finance**](https://getdata.finance/datasets/aapl)
 
-**AAPL 30m OHLCV us stocks historical data** — ultra high-quality 30m OHLCV for **AAPL**. US equity cash and extended sessions — institutional-style OHLCV candles for US stocks. Clean `datetime, open, high, low, close, volume` CSV for backtesting, algorithmic trading and quantitative research.
+**AAPL 30m OHLCV stocks historical data** — ultra high-quality 30m OHLCV for **Apple**. Clean `time, open, high, low, close, volume` CSV for backtesting, algorithmic trading and quantitative research.
 
 ## Table of contents
 
@@ -21,14 +21,13 @@
 
 ## Why this dataset?
 
-- **Ultra high-quality 30m OHLCV** for **AAPL** (US stocks)
-- **US equity cash and extended sessions — institutional-style OHLCV candles for US stocks**
-- **Clean CSV schema** — `datetime, open, high, low, close, volume` (no gaps in formatting)
-- **Free evaluation sample** on GitHub (`30m`) · **9 timeframes** on [getdata.finance](https://getdata.finance/datasets/aapl) · **40,393** `1m` rows in the full archive
+- **Ultra high-quality 30m OHLCV** for **Apple** (US stocks)
+- **Clean CSV schema** — `time, open, high, low, close, volume` (no gaps in formatting)
+- **Free evaluation sample** on GitHub (`30m`) · **11 timeframes** on [getdata.finance](https://getdata.finance/datasets/aapl) · **21,456** `30m` rows in the full archive
 - Built for **backtesting**, **algorithmic trading** and **quantitative finance** workflows
 - **Weekly refresh** — [getdata.finance](https://getdata.finance) every **Saturday, 8am UTC+0**; GitHub `30m` sample updated in sync
 
-> **Sample on GitHub** · `AAPL_30m.csv` (1,625 rows, `2026-02-02` -> `2026-07-31`). **Full archive on [getdata.finance](https://getdata.finance/datasets/aapl)** — **40,393** `1m` rows (~3.07 MB), **9 timeframes** (1m · 3m · 5m · 15m · 30m · 1H · 12H · 3D · 1W), `2011-05-09` -> `2026-07-31`.
+> **Sample on GitHub** · `AAPL_30m.csv` (1,848 rows, `2026-02-06` -> `2026-09-01`, 185.24 KB). **Full archive on [getdata.finance](https://getdata.finance/datasets/aapl)** — **21,456** `30m` rows (full `1m`: 640,914), **11 timeframes**, `2020-01-02` -> `2026-09-01`.
 
 ## Download sample
 
@@ -44,22 +43,22 @@ Full archive & live chart on getdata.finance: **[https://getdata.finance/dataset
 
 | | **Sample (this repo)** | **Full dataset ([getdata.finance](https://getdata.finance/datasets/aapl))** |
 |---|--:|---|
-| Instrument | AAPL · US stocks | AAPL · US stocks |
-| Timeframes | `30m` (sample) | **9** — 1m · 3m · 5m · 15m · 30m · 1H · 12H · 3D · 1W |
-| 1m rows | 1,625 | **40,393** |
-| Size | 0.16 MB | ~3.07 MB |
-| Period | `2026-02-02` -> `2026-07-31` | `2011-05-09` -> `2026-07-31` |
+| Instrument | Apple · US stocks | Apple · US stocks |
+| Timeframes | `30m` (sample) | **11** — 1m · 3m · 5m · 15m · 30m · 1H · 4H · 12H · 1D · 3D · 1W |
+| 30m rows | 1,848 | **21,456** |
+| Size | 185.24 KB | full ZIP on [getdata.finance](https://getdata.finance/datasets/aapl) |
+| Period | `2026-02-06` -> `2026-09-01` | `2020-01-02` -> `2026-09-01` |
 | File | `AAPL_30m.csv` | ZIP on [getdata.finance](https://getdata.finance/datasets/aapl) |
 | Coverage report | — | [AAPL coverage](https://getdata.finance/coverage/aapl) |
 | Updates | Weekly (Saturday, 8am UTC+0) — GitHub sample | Weekly (Saturday, 8am UTC+0) — all timeframes |
 
 ## Timeframes on GetData
 
-This GitHub repository ships a **`30m` evaluation sample** only. On **[getdata.finance](https://getdata.finance/datasets/aapl)**, each full asset archive is delivered as a ZIP with **9 gap-free OHLCV timeframes** (one CSV per timeframe):
+This GitHub repository ships a **`30m` evaluation sample** only. On **[getdata.finance](https://getdata.finance/datasets/aapl)**, each full asset archive is delivered as a ZIP with **11 gap-free OHLCV timeframes** (one CSV per timeframe):
 
-**1m** · **3m** · **5m** · **15m** · **30m** · **1H** · **12H** · **3D** · **1W**
+**1m · 3m · 5m · 15m · 30m · 1H · 4H · 12H · 1D · 3D · 1W**
 
-GitHub = `30m` sample · [getdata.finance](https://getdata.finance/datasets/aapl) = all **9** timeframes above for the same instrument.
+GitHub = `30m` sample · [getdata.finance](https://getdata.finance/datasets/aapl) = all **11** timeframes above for the same instrument.
 
 ## Weekly updates
 
@@ -74,29 +73,29 @@ First and latest rows from the GitHub sample **`AAPL_30m.csv`**:
 
 **First rows**
 
-| datetime | open | high | low | close | volume |
+| time | open | high | low | close | volume |
 | --- | --- | --- | --- | --- | --- |
-| 2026-02-02T14:30:00+00:00 | 257.05 | 262.04 | 257.05 | 261.37 | 8429 |
-| 2026-02-02T15:00:00+00:00 | 261.37 | 263.35 | 261.27 | 263.14 | 7207 |
-| 2026-02-02T15:30:00+00:00 | 263.14 | 263.46 | 260.4 | 260.79 | 5943 |
-| 2026-02-02T16:00:00+00:00 | 260.79 | 262.65 | 260.62 | 262.42 | 5624 |
-| 2026-02-02T16:30:00+00:00 | 262.42 | 262.84 | 262 | 262.53 | 3749 |
+| 2026-02-06T20:00:00+00:00 | 276.69 | 276.86 | 275.67 | 275.76 | 7351 |
+| 2026-02-06T20:30:00+00:00 | 275.76 | 277.12 | 275.68 | 276.16 | 8694 |
+| 2026-02-09T14:30:00+00:00 | 276.16 | 276.16 | 271.27 | 272.09 | 8738 |
+| 2026-02-09T15:00:00+00:00 | 272.09 | 272.37 | 271.15 | 271.17 | 7667 |
+| 2026-02-09T15:30:00+00:00 | 271.17 | 271.86 | 270.89 | 271.37 | 6069 |
 
 **Last rows**
 
-| datetime | open | high | low | close | volume |
+| time | open | high | low | close | volume |
 | --- | --- | --- | --- | --- | --- |
-| 2026-07-31T17:30:00+00:00 | 301 | 301.5 | 300.3 | 300.44 | 2604 |
-| 2026-07-31T18:00:00+00:00 | 300.44 | 302.21 | 300.39 | 301.54 | 3082 |
-| 2026-07-31T18:30:00+00:00 | 301.54 | 302.76 | 301.51 | 302.62 | 2693 |
-| 2026-07-31T19:00:00+00:00 | 302.62 | 305.49 | 302.56 | 305.45 | 4814 |
-| 2026-07-31T19:30:00+00:00 | 305.45 | 310.41 | 304.82 | 308.87 | 8999 |
+| 2026-09-01T17:30:00+00:00 | 324.24 | 324.8 | 323.92 | 324.8 | 3494 |
+| 2026-09-01T18:00:00+00:00 | 324.8 | 325.32 | 324.22 | 324.76 | 3949 |
+| 2026-09-01T18:30:00+00:00 | 324.76 | 325.42 | 323.96 | 325.13 | 4622 |
+| 2026-09-01T19:00:00+00:00 | 325.13 | 325.51 | 324.62 | 325.18 | 4283 |
+| 2026-09-01T19:30:00+00:00 | 325.18 | 325.47 | 323.68 | 324.79 | 6576 |
 
 ## Schema
 
 | Column | Description |
 | --- | --- |
-| `datetime` | Bar open timestamp (UTC, ISO-8601). |
+| `time` | Bar open timestamp (UTC, ISO-8601). |
 | `open` | Opening price of the candlestick bar. |
 | `high` | Highest price during the bar. |
 | `low` | Lowest price during the bar. |
@@ -104,7 +103,7 @@ First and latest rows from the GitHub sample **`AAPL_30m.csv`**:
 | `volume` | Tick volume (number of price updates) during the bar. |
 
 ```text
-datetime,open,high,low,close,volume
+time,open,high,low,close,volume
 ```
 
 ## Code examples
@@ -114,11 +113,9 @@ datetime,open,high,low,close,volume
 ```python
 import pandas as pd
 
-df = pd.read_csv('AAPL_30m.csv', parse_dates=['datetime'])
-df.set_index('datetime', inplace=True)
+df = pd.read_csv('AAPL_30m.csv', parse_dates=['time'])
+df.set_index('time', inplace=True)
 print(df.describe())
-print(df.resample('1h').agg({'open': 'first', 'high': 'max',
-                              'low': 'min', 'close': 'last', 'volume': 'sum'}).head())
 ```
 
 ### backtrader
@@ -127,8 +124,8 @@ print(df.resample('1h').agg({'open': 'first', 'high': 'max',
 import backtrader as bt
 import pandas as pd
 
-df = pd.read_csv('AAPL_30m.csv', parse_dates=['datetime'])
-df.set_index('datetime', inplace=True)
+df = pd.read_csv('AAPL_30m.csv', parse_dates=['time'])
+df.set_index('time', inplace=True)
 
 class PandasData(bt.feeds.PandasData):
     params = (('datetime', None), ('open', 'open'), ('high', 'high'),
@@ -146,20 +143,20 @@ cerebro.adddata(PandasData(dataname=df))
 import pandas as pd
 import vectorbt as vbt
 
-df = pd.read_csv('AAPL_30m.csv', parse_dates=['datetime'])
-close = df.set_index('datetime')['close']
+df = pd.read_csv('AAPL_30m.csv', parse_dates=['time'])
+close = df.set_index('time')['close']
 fast, slow = vbt.MA.run(close, 10), vbt.MA.run(close, 50)
 entries = fast.ma_crossed_above(slow)
 exits = fast.ma_crossed_below(slow)
-pf = vbt.Portfolio.from_signals(close, entries, exits, init_cash=10_000, freq='1min')
+pf = vbt.Portfolio.from_signals(close, entries, exits, init_cash=10_000, freq='30min')
 print(pf.stats())
 ```
 
 ## Download full data
 
-The complete **AAPL** archive on **[getdata.finance](https://getdata.finance/datasets/aapl)** includes **9 OHLCV timeframes** (1m · 3m · 5m · 15m · 30m · 1H · 12H · 3D · 1W) — **40,393** rows at `1m`, plus all other timeframes in the same ZIP.
+The complete **AAPL** archive on **[getdata.finance](https://getdata.finance/datasets/aapl)** includes **11 OHLCV timeframes** (1m · 3m · 5m · 15m · 30m · 1H · 4H · 12H · 1D · 3D · 1W) — **21,456** rows at `30m`, plus all other timeframes in the same ZIP.
 
 **[-> Get the full AAPL dataset on getdata.finance](https://getdata.finance/datasets/aapl)**
 
 ---
-*GetData · AAPL 30m OHLCV sample on GitHub · Full historical data on [getdata.finance](https://getdata.finance/datasets/aapl) · 2026-08-05 UTC*
+*GetData · AAPL 30m OHLCV sample on GitHub · Full historical data on [getdata.finance](https://getdata.finance/datasets/aapl)*
